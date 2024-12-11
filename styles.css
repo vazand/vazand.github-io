@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  color: #333;
+}
+
+header {
+  background: #0b0b0b; /* Attractive blue background */
+  color: #dc3636;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #0f0f0f; /* Bright yellow for the links */
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #ff9800; /* Orange color on hover */
+}
+
+header nav ul li a i {
+  margin-right: 5px;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border-left: 4px solid #333;
+}
+span {
+  display: inline;
+  color: #1a73e8; /* Attractive blue color */
+  font-weight: bold;
+}
+#contact i {
+  color: #1a73e8; /* Match the header's blue color */
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #333;
+  color: #fff;
+  margin-top: 2rem;
+}
